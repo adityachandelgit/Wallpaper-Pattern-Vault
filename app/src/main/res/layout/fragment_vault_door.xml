@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_height="match_parent"
+        android:src="@drawable/wp1" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fab_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        fab:fab_addButtonColorNormal="@color/red"
+        fab:fab_addButtonColorPressed="#CC9E39"
+        fab:fab_addButtonPlusIconColor="@color/white"
+        fab:fab_labelStyle="@style/menu_labels_style">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_reset_pattern"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/indigo"
+            fab:fab_icon="@drawable/ic_fab_reset"
+            fab:fab_title="Reset Forgotten Pattern"
+            fab:fab_size="mini"
+            fab:fab_colorPressed="@color/half_black" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_themePlants"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/indigo"
+            fab:fab_icon="@drawable/ic_fab_theme"
+            fab:fab_title="Abstract Theme"
+            fab:fab_size="mini"
+            fab:fab_colorPressed="@color/half_black" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:id="@+id/fab_themeAngelina"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/indigo"
+            fab:fab_icon="@drawable/ic_fab_theme"
+            fab:fab_size="mini"
+            fab:fab_title="Girl Theme"
+            fab:fab_colorPressed="@color/half_black" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_themeChristmas"
+            fab:fab_colorNormal="#3f51b5"
+            fab:fab_icon="@drawable/ic_fab_theme"
+            fab:fab_size="mini"
+            fab:fab_title="Christmas Theme"
+            fab:fab_colorPressed="@color/half_black" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</FrameLayout>

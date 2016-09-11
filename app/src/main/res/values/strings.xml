@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Secret Diary: Sequence Vault</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_secret_text">SecretTextActivity</string>
+    <string name="title_activity_secret_text_fragment">SecretTextFragment</string>
+    <string name="title_activity_master_password_fragment">MasterPasswordFragment</string>
+
+</resources>
